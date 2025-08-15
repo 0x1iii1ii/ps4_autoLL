@@ -9,7 +9,7 @@ Base on [remote_lua_loader](https://github.com/shahrilnet/remote_lua_loader) and
 ## How to use
 * Copy all files from the savedata dir to your decrypted save (make sure to delete all files except the "sce_sys" folder before copy), then encrypt and resign to your accounts (you can either use Apollo and Discord bot from HTOS)
 * Copy the modified save to your PS4
-* Download `HEN` payload from [Scene-Collective's releases](https://github.com/Scene-Collective/ps4-hen/releases) or GoldHEN from [SiSTRo's ko-fi](https://ko-fi.com/s/bd655acbdband) and rename it to `payload.bin`
+* Download `HEN` payload from [Scene-Collective's releases](https://github.com/Scene-Collective/ps4-hen/releases) or GoldHEN from [SiSTRo's ko-fi](https://ko-fi.com/sistro) and rename it to `payload.bin`
 * Copy `payload.bin` to the root directory of your USB drive (exFAT format) (it only needs to be done once)
 * Plug the USB drive to your PS4 and run the games, it will do the exploit and copy the payload to the internal HDD (it only needs to be copied once), enjoy! <be>
 
