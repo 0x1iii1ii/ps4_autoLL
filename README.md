@@ -7,23 +7,23 @@ Automatically loads HEN with Lua + Lapse kernel exploit for PS4, supports PS4 fi
 Base on [remote_lua_loader](https://github.com/shahrilnet/remote_lua_loader) and [itsPLK's fork](https://github.com/itsPLK/ps5_lua_loader)
 
 ## How to use
-* Copy all files from savedata dir to your decrypted save (make sure to delete all files except the "sce_sys" folder before copy), then encrypted and resign to your accounts (you can either use apollo and discord bot from HTOS)
-* Copy modified save to your PS4
-* Download vtx hen from [EchoStretch's releases](https://github.com/EchoStretch/ps4-hen-vtx/releases) or from [Al-Azif's releases](https://uploadnow.io/en/share?utm_source=CBpKbp1) and use one of the `.bin` match your PS4 version and rename to `payload.bin`
-* Copy `payload.bin` to the root dir your USB drive (exFAT format) (it only needs to do once)
-* Plug the USB drive to your PS4 and run the games, it will do the exploit and copy payload to internal HDD (it only needs to be copied once) enjoy! <be>
+* Copy all files from the savedata dir to your decrypted save (make sure to delete all files except the "sce_sys" folder before copy), then encrypt and resign to your accounts (you can either use Apollo and Discord bot from HTOS)
+* Copy the modified save to your PS4
+* Download vtx `hen.bin` from [Scene-Collective's releases](https://github.com/Scene-Collective/ps4-hen/releases) and rename to `payload.bin`
+* Copy `payload.bin` to the root directory of your USB drive (exFAT format) (it only needs to be done once)
+* Plug the USB drive to your PS4 and run the games, it will do the exploit and copy the payload to the internal HDD (it only needs to be copied once), enjoy! <be>
 
 Please note that there might be bugs; this is an early version of the Lapse exploit, so keep it in mind. <be>
-DO NOT run the exploit again after the HEN loaded, it may cause the instability. <be>
-If you get exploit error, restart the PS4 and try again.
+DO NOT run the exploit again after the HEN is loaded; it may cause instability. <be>
+If you get an exploit error, restart the PS4 and try again.
 
 ## Update HEN
 
-* Copy the new HEN and rename to `payload.bin` to the USB drive's root, then run the game to update the payload on the internal HDD.
+* Copy the new HEN and rename it to `payload.bin` to the USB drive's root, then run the game to update the payload on the internal HDD.
 
 ## Game Compatibility
 
-Currently this loader is compatible with the following games:
+Currently, this loader is compatible with the following games:
   
 | Game Title                            | TITLE ID    | Notes                                                                           |
 |---------------------------------------|-------------|---------------------------------------------------------------------------------|
@@ -53,7 +53,8 @@ Currently this loader is compatible with the following games:
 * null_ptr - for helping to develop umtx exploit for PS5 & numerous helps with the loader development
 * gezine - for sharing the vulnerable games & ideas
 * specter & chendo - for webkit implementations referenced a lot
-* al-azif - parts and information grabbed from his sdk, aswell as from his ftp server
+* al-azif - parts and information grabbed from his sdk, as well as from his ftp server, and ps4-hen repo
+* echostretch & illusion0001 - for the maintaining ps4-hen repo
 * horror - for the notification popup and ftp server payloads
 * everyone else who shared their knowledge with the community
 * and the excellent [blog post](https://memorycorruption.net/posts/rce-lua-factorio/) where most of the ideas of lua primitives are taken from 
