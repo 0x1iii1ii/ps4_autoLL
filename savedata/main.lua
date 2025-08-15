@@ -154,6 +154,7 @@ function main()
         setsockopt = 0x69,
         listen = 0x6a,
         getsockopt = 0x76,
+        netgetiflist = 0x7d,
         sysctl = 0xca,
         nanosleep = 0xf0,
         sigaction = 0x1a0,
@@ -166,13 +167,13 @@ function main()
 
     FW_VERSION = get_version()
 
-    AUTOLL_VERSION = "0.2"
+    AUTOLL_VERSION = "0.3"
 
     thread.init()
 
     kernel_offset = get_kernel_offset()
 
-    send_ps_notification(string.format("PS4 AutoLuaLapse HEN v%s\nFirmware: %s", AUTOLL_VERSION, FW_VERSION))
+    send_ps_notification(string.format("PS4 AutoLuaLoader HEN v%s\nFirmware: %s", AUTOLL_VERSION, FW_VERSION))
 
     if tonumber(FW_VERSION) <= 12.02 then
         kernel_exploit_lua = "lapse.lua"
