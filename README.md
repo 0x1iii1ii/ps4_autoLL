@@ -46,7 +46,7 @@ Currently, this loader is compatible with the following games:
 | Mikagami Sumika no Seifuku Katsudou   | CUSA11481   |                                                                                 |
 | Aerial Life                           | CUSA17122   |                                                                                 |
 | Tonari ni Kanojo no Iru Shiawase Summer Surprise    | CUSA18998   |                                                                   |
-
+| Tonari ni Kanojo no Iru Shiawase ~ Two Farce ~   | CUSA09825   |  
 ## Credits
 
 * abc – for the lapse exploits
